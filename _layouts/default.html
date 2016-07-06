@@ -71,24 +71,43 @@
 </head>
 <!-- Header: end -->
 
+    <meta name="msapplication-TileImage" content="{{ site.url }}/mstile-144x144.png?v=8jjamLzmpR">
+</head>
+<!-- Header: end -->
+
 <body>
+<div class="wrapper-for-content-outside-of-footer">
+    <div class="site-title">
+        <a href="{{ site.url }}">{{ site.title }}</a>
+    </div>
+    <div class = "container">
+        {{ content }}
+    </div>
+</div>
+
+
+<!-- Some empty space between the page counter and footer -->
+<div>
+    <br/><br/><br/><br/>
+</div>
 
 
 <!-- Footer: begin -->
-<footer class="stickyfooter" role="contentinfo" style="position: relative;">
+<footer class="stickyfooter" role="contentinfo">
   <div class="footer-logo">
-    <a href="https://ajbass.github.io/"><i class="fa fa-{{ site.fort_awesome_icon }}"></i></a>
+    <a href="{{ site.url }}"><i class="fa fa-{{ site.fort_awesome_icon }}"></i></a>
   </div>
 
     <div class="footer-secondary-links">
+      <ul>
+        <li>&copy; 2016 Andrew Bass. Powered by <a href="http://jekyllrb.com/">Jekyll</a>
+        using the <a href="{{ site.url }}">Trio</a> theme
+        </li>
+      </ul>
 
       <ul class="footer-social">
 
-
- <!----           <li><a href="https://scholar.google.com/citations?user=oDq26dcAAAAJ&hl=en">
-                <i class="ai ai-google-scholar-square"></i>
-            </a></li> --->
-                    {% if site.owner.github %}
+             {% if site.owner.github %}
             <li><a href="http://github.com/{{ site.owner.github }}">
                 <i class="fa fa-github-square"></i>
             </a></li>
@@ -112,36 +131,17 @@
                 <i class="fa fa-envelope-square"></i>
             </a></li>
         {% endif %}
-        {% if site.owner.google_plus %}
-            <li><a href="http://plus.google.com/+{{ site.owner.google_plus }}">
-                <i class="fa fa-google-plus-square"></i>
-            </a></li>
-        {% endif %}
-
-        {% if site.owner.facebook %}
-            <li><a href="http://facebook.com/{{ site.owner.facebook }}">
-                <i class="fa fa-facebook-square"></i>
-            </a></li>
-        {% endif %}
-
-        {% if site.owner.youtube %}
-            <li><a href="http://github.com/{{ site.owner.youtube }}">
-                <i class="fa fa-youtube-square"></i>
-            </a></li>
-        {% endif %}
+         <!----           <li><a href="https://scholar.google.com/citations?user=oDq26dcAAAAJ&hl=en">
+                <i class="ai ai-google-scholar-square"></i>
+            </a></li> --->
       </ul>
     </div>
+    <!-- This removes the small sliver of whitespace at the end of the page -->
+    <br/>
 </footer>
 <!-- Footer: end -->
-<div class="wrapper-for-content-outside-of-footer" style="position: relative; top: -60px;">
-    <div class="site-title">
-        <a href="https://ajbass.github.io/">{{ site.title }}</a>
-    </div>
-    <div class = "container">
-        {{ content }}
-    </div>
-</div>
 
+<!-- Footer: end -->
 
 </body>
 </html>
