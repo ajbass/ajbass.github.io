@@ -30,7 +30,7 @@ permalink: /:year/:month/:day/:title/
 paginate: 4
 
 # Markdown
-markdown: redcarpet
+#markdown: redcarpet
 highlighter: rouge
 
 
