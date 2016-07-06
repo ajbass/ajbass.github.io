@@ -4,7 +4,7 @@
       "title"    : "About",
       "category" : "",
       "tags"     : "",
-      "url"      : "ajbass.github.io/About/",
+      "url"      : "/About/",
       "date"     : "2013-06-01 00:00:00 -0400",
       "content"  : "I am currently a research scientist in the Storey Lab at Princeton University. The main focus of the lab is on high-dimensional data analysis in genomics. My general interests are in the following topics:\n\n\nDeveloping statistical models for high-dimensional data \nMeta-analysis studies\nWriting R packages\nReproducible research\n\n\nPlease see my Research, R packages, or GitHub page for additional details.\n",
       "snippet"  : "I am currently a research scientist in the Storey Lab at Princeton University."
@@ -14,7 +14,7 @@
       "title"    : "Research",
       "category" : "",
       "tags"     : "",
-      "url"      : "ajbass.github.io/Research/",
+      "url"      : "/Research/",
       "date"     : "2002-01-01 00:00:00 -0500",
       "content"  : "\n\nOptimal discovery procedure for generalized study designs\n\nCollaborators: John D. Storey\n\nUnder construction\n\nPredicting adequate read depth in sequencing studies to maximize statistical power\n\nA common problem when designing a sequencing experiment is determining how many reads to sequence. Usually researchers will try to find a similar experiment (which can be difficult) or run a pilot study to guide their choice in read depth. In either case, subsampling methodologies are applied to assess whether more reads should be sequenced to maximize statistical power in the experiment. However, these methodologies do not provide guidelines for how many additional reads should be sequenced. We have developed a parametric model, superSeq, to predict the increase in power from an increasing sequencing depth. Therefore, researchers can use our model to determine how many reads, if any, need to be sequenced to maximize statistical power in a completed sequencing experiment.\n\nPresentations\n\n\nIcahn Think &amp; Drink (2015): pdf\n\n\nPosters\n\n\nJohn W. Tukey 100th Birthday Celebration (2015): pdf\nBioconductor (2015): pdf\n\n\nCollaborators\n\n\nDavid G. Robinson\nJohn D. Storey\n\n",
       "snippet"  : "List of current research projects."
@@ -24,7 +24,7 @@
       "title"    : "Software",
       "category" : "",
       "tags"     : "",
-      "url"      : "ajbass.github.io/Software/",
+      "url"      : "/Software/",
       "date"     : "2001-01-01 00:00:00 -0500",
       "content"  : "\nedge: The edge package implements methods for carrying out differential expression analyses of genome-wide gene expression studies. Authors: John D. Storey, Jeffrey T. Leek and Andrew J. Bass\nbiobroom: The biobroom package contains tidying methods for S4 objects in Bioconductor. Authors: Andrew J. Bass, David G. Robinson, Emily Nelson and John D. Storey\nqvalue: The qvalue package estimates the q-values for a given set of p-values. See\nthe shiny app for an interactive version! Author: John D. Storey Contributors: Andrew J. Bass, Alan Dabney, David G. Robinson\nsubSeq: The subSeq package subsamples high throughput sequencing count data for use in experiment design and analysis. Authors: David G. Robinson and John D. Storey Contributors: Andrew J. Bass\n\n",
       "snippet"  : "A list of R packages that I currently maintain."
@@ -53,7 +53,7 @@
         "title"    : "Search",
         "category" : "",
         "tags"     : "",
-        "url"      : "ajbass.github.io/search/",
+        "url"      : "/search/",
         "date"     : " ",
         "content"  : "",
         "snippet"  : " "
