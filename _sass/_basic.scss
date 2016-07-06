@@ -4,7 +4,7 @@ MIT License
 */
 
 html {
-  font: 16px/1.5 'Source Sans Pro', sans-serif;
+  font: 16px/1.5 Inconsolata, sans-serif;
 }
 
 @media (min-width: 30rem) {
@@ -14,13 +14,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 2rem 0 5rem;
   color: $base-gray;
 }
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 0;
+    margin-top: 5rem;
   }
 }
 
@@ -37,7 +37,7 @@ body a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: darken($base-gray, 13.5%);
@@ -198,5 +198,3 @@ div.post-title {
     }
   }
 }
-
-
