@@ -27,7 +27,16 @@ section,
 summary {
     display: block;
 }
+#header {
+  position: relative;
+  margin: 0 auto 0;
+  padding-top: 0px;
 
+}
+
+#header h1{
+    margin:0px;
+}
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
@@ -122,7 +131,7 @@ a:hover {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0;
 }
 
 /**
@@ -267,7 +276,7 @@ figure {
 
 fieldset {
     border: 1px solid #c0c0c0;
-    margin: 0 2px;
+    margin: 0 0px;
     padding: 0.35em 0.625em 0.75em;
 }
 

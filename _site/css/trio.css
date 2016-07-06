@@ -27,18 +27,18 @@ https://github.com/chibicode/solo/blob/gh-pages/css/solo.css
 MIT License
 */
 html {
-  font: 16px/1.5 Inconsolata, sans-serif; }
+  font: 16px/1.5 'Source Sans Pro', sans-serif; }
 
 @media (min-width: 30rem) {
   html {
     font-size: 20px; } }
 body {
-  margin: 2rem 0 5rem;
+  margin: 0;
   color: #333; }
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 5rem; } }
+    margin-top: 0; } }
 a {
   text-decoration: none; }
 
@@ -49,7 +49,7 @@ body a {
   color: #000000; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
   color: #111111;
