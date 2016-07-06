@@ -49,6 +49,3 @@ redcarpet:
 # Gems
 gems: ['jekyll-paginate']
 
-# Exclude
-exclude: ['README.md']
-
