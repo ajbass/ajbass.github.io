@@ -41,7 +41,7 @@ html, body {
 
   background: $footer-background;
   padding: $base-spacing;
-  width: 100%;
+  width: extend-to-zoom;
   display: inline-block;
 
   .footer-logo {

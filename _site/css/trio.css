@@ -438,7 +438,7 @@ html, body {
 .stickyfooter {
   background: #262626;
   padding: 1.5em;
-  width: 100%;
+  width: extend-to-zoom;
   display: inline-block; }
   .stickyfooter .footer-logo {
     margin-right: 1em;
