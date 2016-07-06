@@ -3,8 +3,8 @@
   <channel>
     <title>Andrew Bass</title>
     <description>Personal website</description>
-    <link>http://ajbass.github.io//</link>
-    <atom:link href="http://ajbass.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <link>ajbass.github.io/</link>
+    <atom:link href="ajbass.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>About</title>
@@ -20,8 +20,8 @@
 &lt;p&gt;Please see my &lt;a href=&quot;http://ajbass.github.io/Research&quot;&gt;&lt;u&gt;Research&lt;/u&gt;&lt;/a&gt;, &lt;a href=&quot;http://ajbass.github.io/Software&quot;&gt;&lt;u&gt;R packages&lt;/u&gt;&lt;/a&gt;, or &lt;a href=&quot;http://github.com/ajbass&quot;&gt;&lt;u&gt;GitHub&lt;/u&gt;&lt;/a&gt; page for additional details.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://ajbass.github.io//About/</link>
-        <guid isPermaLink="true">http://ajbass.github.io//About/</guid>
+        <link>ajbass.github.io/About/</link>
+        <guid isPermaLink="true">ajbass.github.io/About/</guid>
       </item>
     
       <item>
@@ -64,8 +64,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 01 Jan 2002 00:00:00 -0500</pubDate>
-        <link>http://ajbass.github.io//Research/</link>
-        <guid isPermaLink="true">http://ajbass.github.io//Research/</guid>
+        <link>ajbass.github.io/Research/</link>
+        <guid isPermaLink="true">ajbass.github.io/Research/</guid>
       </item>
     
       <item>
@@ -79,8 +79,8 @@ the &lt;a href=&quot;http://qvalue.princeton.edu/&quot;&gt;&lt;u&gt;shiny app&lt
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 01 Jan 2001 00:00:00 -0500</pubDate>
-        <link>http://ajbass.github.io//Software/</link>
-        <guid isPermaLink="true">http://ajbass.github.io//Software/</guid>
+        <link>ajbass.github.io/Software/</link>
+        <guid isPermaLink="true">ajbass.github.io/Software/</guid>
       </item>
     
   </channel>
