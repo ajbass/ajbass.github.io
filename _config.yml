@@ -1,6 +1,7 @@
 # Site wide configuration
 title: Andrew Bass
 description: 'Personal website'
+url: ajbass.github.io
 fort_awesome_icon: 'cog fa-spin'
 
 # Owner configuration
