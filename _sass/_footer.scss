@@ -13,7 +13,7 @@ $large-screen: em(860) !default;
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0;
+  margin: 0 auto -4em;
 }
 
 html, body {
@@ -26,7 +26,7 @@ html, body {
 }
 
 .stickyfooter, .wrapper-for-content-outside-of-footer:after {
-  height: 10em;
+  height: 17em;
   @include media($large-screen) {
     height: 4em;
   }
@@ -41,7 +41,7 @@ html, body {
 
   background: $footer-background;
   padding: $base-spacing;
-  width: extend-to-zoom;
+  width: 100%;
   display: inline-block;
 
   .footer-logo {
@@ -55,7 +55,7 @@ html, body {
   }
 
   .footer-logo {
-    height: 1.0em;
+    height: 1.6em;
     line-height: 0.6em;
     a i {
       font-size: 1.75em;
