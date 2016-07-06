@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<br/>
+
+<div class="post-title">
+    <div class="logo">
+        {% if page.logo %}
+            <i class="fa fa-{{ page.logo }} fa-fw"></i>
+        {% else %}
+            <i class="fa fa-question-circle fa-fw"></i>
+        {% else %}
+            <img src="Rlogo.png" />
+        {% endif %}
+    </div>
+    <div class="title">
+        <h2>{{ page.title }}</h2>
+                <span>
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                    {% if page.update_date %}
+                    <i>Updated {{ page.update_date | date: site.date_format }}</i>
+                    {% endif %}
+            </time>
+        </span>
+    </div>
+</div>
+
+<div>
+    <br/>
+</div>
+
+{{ content }}
+
+</div>
+
+
+

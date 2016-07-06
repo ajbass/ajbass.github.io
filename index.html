@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+<div class="post-index">
+    <div class="post-image">
+        <a href="{{ site.url }}{{ post.url }}">
+            {% if post.logo %}
+              <i class="fa fa-{{ post.logo }} fa-fw"></i>
+            {% else %}
+              <i class="icon-script"></i>
+            <!--  <i class="fa fa-question-circle fa-fw"></i>-->
+            {% endif %}
+        </a>
+    </div>
+    <div class="post-content">
+        <h2><a href="{{ site.url }}{{ post.title }}">{{ post.title }}</a></h2>
+        <p>
+            {% if post.summary %}
+                <span class="excerpt">{{ post.summary }}</span>
+            {% else %}
+                <span class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30}}</span>
+            {% endif %}
+        </p>
+    </div>
+</div>
+{% endfor %}
+
+
+
+
+<p><small>&copy; 2016 Andrew Bass. Powered by Jekyll using the <a href = "https://github.com/ankur-gupta/trio">Trio theme</a></small>.</p>
+

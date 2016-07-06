@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew J. Bass</title>
+    <description>Personal website</description>
+    <link>http://127.0.0.1:4000//</link>
+    <atom:link href="http://127.0.0.1:4000//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>About</title>
+        <description>&lt;p&gt;I am currently a research scientist in the &lt;a href=&quot;http://www.genomine.org/&quot;&gt;&lt;u&gt;Storey Lab&lt;/u&gt;&lt;/a&gt; at Princeton University. The main focus of the lab is on high-dimensional data analysis in genomics. My general interests are in the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developing statistical models for high-dimensional data &lt;/li&gt;
+&lt;li&gt;Meta-analysis studies&lt;/li&gt;
+&lt;li&gt;Writing R packages&lt;/li&gt;
+&lt;li&gt;Reproducible research&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please see my &lt;a href=&quot;http://ajbass.github.io/Research&quot;&gt;&lt;u&gt;Research&lt;/u&gt;&lt;/a&gt;, &lt;a href=&quot;http://ajbass.github.io/Software&quot;&gt;&lt;u&gt;R packages&lt;/u&gt;&lt;/a&gt;, or &lt;a href=&quot;http://github.com/ajbass&quot;&gt;&lt;u&gt;GitHub&lt;/u&gt;&lt;/a&gt; page for additional details.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jun 2013 00:00:00 -0400</pubDate>
+        <link>http://127.0.0.1:4000//About/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//About/</guid>
+      </item>
+    
+      <item>
+        <title>Research</title>
+        <description>&lt;!--* Experimental design in sequencing studies
+  - [Predicting adequate read depth in sequencing studies to maximize statistical power](#predicting-adequate-read-depth-in-sequencing-studies-to-maximize-statistical-power)
+* Multiple testing in high-dimensional data
+  - [Optimal discovery procedure for generalized study designs](#optimal-discovery-procedure-for-generalized-study-designs)
+  - Optimally combining p-values for multiple testing
+---&gt;
+
+&lt;h3 id=&quot;optimal-discovery-procedure-for-generalized-study-designs&quot;&gt;Optimal discovery procedure for generalized study designs&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Collaborators&lt;/strong&gt;: &lt;a href=&quot;http://genomine.org&quot;&gt;John D. Storey&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Under construction&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;predicting-adequate-read-depth-in-sequencing-studies-to-maximize-statistical-power&quot;&gt;Predicting adequate read depth in sequencing studies to maximize statistical power&lt;/h3&gt;
+
+&lt;p&gt;A common problem when designing a sequencing experiment is determining how many reads to sequence. Usually researchers will try to find a similar experiment (which can be difficult) or run a pilot study to guide their choice in read depth. In either case, subsampling methodologies are applied to assess whether more reads should be sequenced to maximize statistical power in the experiment. However, these methodologies do not provide guidelines for how many additional reads should be sequenced. We have developed a parametric model, superSeq, to predict the increase in power from an increasing sequencing depth. Therefore, researchers can use our model to determine how many reads, if any, need to be sequenced to maximize statistical power in a completed sequencing experiment.&lt;/p&gt;
+
+&lt;h4 id=&quot;presentations&quot;&gt;Presentations&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Icahn Think &amp;amp; Drink (2015): &lt;a href=&quot;http://ajbass.github.io/superSeq_icahn.pdf&quot;&gt;&lt;u&gt;pdf&lt;/u&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;posters&quot;&gt;Posters&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;John W. Tukey 100th Birthday Celebration (2015): &lt;a href=&quot;http://ajbass.github.io//bioc_poster.pdf&quot;&gt;&lt;u&gt;pdf&lt;/u&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bioconductor (2015): &lt;a href=&quot;http://ajbass.github.io//bioc_poster.pdf&quot;&gt;&lt;u&gt;pdf&lt;/u&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;collaborators&quot;&gt;Collaborators&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David G. Robinson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://genomine.org&quot;&gt;John D. Storey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2002 00:00:00 -0500</pubDate>
+        <link>http://127.0.0.1:4000//Research/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//Research/</guid>
+      </item>
+    
+      <item>
+        <title>Software</title>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://master.bioconductor.org/packages/release/bioc/html/edge.html&quot;&gt;&lt;u&gt;edge&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;: The edge package implements methods for carrying out differential expression analyses of genome-wide gene expression studies. &lt;br&gt;&lt;b&gt;Authors&lt;/b&gt;: John D. Storey, Jeffrey T. Leek and &lt;strong&gt;Andrew J. Bass&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://master.bioconductor.org/packages/release/bioc/html/biobroom.html&quot;&gt;&lt;u&gt;biobroom&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;: The biobroom package contains tidying methods for S4 objects in Bioconductor. &lt;br&gt;&lt;b&gt;Authors&lt;/b&gt;: &lt;strong&gt;Andrew J. Bass&lt;/strong&gt;, David G. Robinson, Emily Nelson and John D. Storey&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bioconductor.org/packages/release/bioc/html/qvalue.html&quot;&gt;&lt;u&gt;qvalue&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;: The qvalue package estimates the q-values for a given set of p-values. See
+the &lt;a href=&quot;http://qvalue.princeton.edu/&quot;&gt;&lt;u&gt;shiny app&lt;/u&gt;&lt;/a&gt; for an interactive version! &lt;br&gt;&lt;b&gt;Author&lt;/b&gt;: John D. Storey &lt;br&gt;&lt;b&gt;Contributors&lt;/b&gt;: &lt;strong&gt;Andrew J. Bass&lt;/strong&gt;, Alan Dabney, David G. Robinson&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://master.bioconductor.org/packages/release/bioc/html/subSeq.html&quot;&gt;&lt;u&gt;subSeq&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;: The subSeq package subsamples high throughput sequencing count data for use in experiment design and analysis. &lt;br&gt;&lt;b&gt;Authors&lt;/b&gt;: David G. Robinson and John D. Storey &lt;br&gt;&lt;b&gt;Contributors&lt;/b&gt;: &lt;strong&gt;Andrew J. Bass&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 01 Jan 2001 00:00:00 -0500</pubDate>
+        <link>http://127.0.0.1:4000//Software/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//Software/</guid>
+      </item>
+    
+  </channel>
+</rss>
