@@ -8,8 +8,15 @@
     
       <item>
         <title>About</title>
-        <description>&lt;p&gt;I am currently a research scientist in the &lt;a href=&quot;http://www.genomine.org/&quot;&gt;Storey Lab&lt;/a&gt; at Princeton University. The main focus of the lab is on high-dimensional data analysis in genomics. My general interests are in the following topics:&lt;/p&gt;
+        <description>&lt;p&gt;I am currently a PhD student at Princeton University in the Quantitative and Computation Biology (QCB) program. My research goals are to develop useful statistical methodologies to analyze high-dimensional data. Prior to attending the QCB program, I worked in the &lt;a href=&quot;http://www.genomine.org/&quot;&gt;Storey Lab&lt;/a&gt; as a research scientist.&lt;/p&gt;
 
+&lt;h4 id=&quot;education&quot;&gt;Education&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;MPS in Information Science, Cornell University&lt;/li&gt;
+  &lt;li&gt;BS in Applied and Engineering Physics, Cornell University&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;general-interests&quot;&gt;General interests&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Developing statistical models for high-dimensional data&lt;/li&gt;
   &lt;li&gt;Meta-analysis studies&lt;/li&gt;
@@ -70,7 +77,9 @@
     
       <item>
         <title>Software</title>
-        <description>&lt;ul&gt;
+        <description>&lt;h3 id=&quot;bioconductor&quot;&gt;Bioconductor&lt;/h3&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://master.bioconductor.org/packages/release/bioc/html/edge.html&quot;&gt;edge&lt;/a&gt;&lt;/strong&gt;: The edge package implements methods for carrying out differential expression analyses of genome-wide gene expression studies. &lt;br /&gt;&lt;b&gt;Authors&lt;/b&gt;: John D. Storey, Jeffrey T. Leek and &lt;strong&gt;Andrew J. Bass&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
