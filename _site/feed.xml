@@ -43,6 +43,9 @@
   - [Optimal discovery procedure for generalized study designs](#optimal-discovery-procedure-for-generalized-study-designs)
   - Optimally combining p-values for multiple testing
 ---&gt;
+&lt;script src=&quot;https://cdn.rawgit.com/ajbass/ajbass.github.io/master/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://cdn.rawgit.com/ajbass/ajbass.github.io/master/jquery.collapse.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The current focus of my research is to (i) understand the relationship between sequencing depth and statistical power in sequencing studies and (ii) improve multiple hypothesis testing in high-dimensional data.&lt;/p&gt;
 
